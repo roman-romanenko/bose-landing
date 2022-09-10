@@ -1,0 +1,65 @@
+.types-product {
+  margin-bottom: 40px;
+
+  @include onTablet {
+    margin-bottom: 64px;
+  }
+
+  &__images--container {
+    position: relative;
+    width: 100%;
+    max-height: 187px;
+
+    @include onTablet {
+      max-height: 319px;
+      height: 187px;
+      padding-bottom: 0;
+    }
+   
+    @include onDesktop {
+      max-height: 350px;
+      height: 320px;
+      padding-bottom: 0;
+    }
+
+    &:after {
+      content: "";
+      display: block;
+      padding-bottom: 100%;
+    }
+  }
+
+  &__images {
+    margin-bottom: 16px;
+  }
+
+  &__image {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+
+    cursor: pointer;
+
+    transition: transform 0.3s;
+
+    &:hover {
+      transform: scale(1.05);
+    }
+  }
+
+  &__name {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 22px;
+    color: $color-text;
+    cursor: pointer;
+
+    @include onTablet {
+      font-size: 24px;
+      line-height: 34px;
+    }
+  }
+
+}
