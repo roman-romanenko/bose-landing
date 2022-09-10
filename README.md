@@ -1,4 +1,15 @@
-# Base layout template with Gulp, SCSS and Stylelint
-1. Create a repo using this template
-1. Replace `<your_account>` and `<repo_name>` with your Github username and the new repo name
-    - [DEMO LINK](https://<your_account>.github.io/<repo_name>/)
+Adapt the page to the following screens:
+• Notebook 1280px
+• Tablet 1024
+• Mobile (> 320px)
+
+Implement the header with 'nav'.
+Implement 'Home' block.
+Implement 'Reccomended' block.
+Implement 'Testimonials' block .
+Implement Process block with 4 process cards.
+Implement Testimonials block.
+Implement 'Contact us' block.
+Implement the footer.
+
+[Demo Link]( https://roman-romanenko.github.io/bose-landing/)
